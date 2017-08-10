@@ -1,5 +1,5 @@
 plugins {
-    id "com.github.hierynomus.license" version "0.12.1"
+    id "com.github.hierynomus.license" version "0.14.0"
 }
 
 defaultTasks 'build'
@@ -14,7 +14,7 @@ group = 'com.xebialabs.deployit.community'
 sourceCompatibility = 1.6
 targetCompatibility = 1.6
 version = '1.0.0'
-def apiVersion = '4.0.1'
+def apiVersion = '2017.4.0'
 def xldeployHome = "$System.env.XLDEPLOY_HOME"
 
 repositories {
